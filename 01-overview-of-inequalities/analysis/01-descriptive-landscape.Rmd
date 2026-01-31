@@ -1,0 +1,75 @@
+---
+title: "Descriptive landscape of women’s health inequalities"
+output: html_document
+---
+
+## Purpose
+
+This analysis provides a high-level descriptive overview of women’s health
+inequalities using publicly available UK data.
+
+The aim is to:
+- establish baseline patterns by sex, age, and deprivation
+- identify where disparities appear largest or most uncertain
+- generate focused follow-on questions for deeper analysis
+
+This analysis is descriptive and does not attempt causal inference.
+
+---
+
+## Outcomes included
+
+Planned outcome domains include:
+- mortality (where relevant)
+- hospital admissions
+- primary care prescribing (as a proxy for treatment)
+- screening or preventive care indicators (where available)
+
+Final inclusion depends on data availability and quality.
+
+---
+
+## Stratification variables
+
+All analyses will be stratified where possible by:
+- sex
+- age group
+- socioeconomic deprivation (e.g. IMD)
+
+Additional stratifiers may be explored cautiously.
+
+---
+
+## Data sources
+
+See `../data/sources.md` for full details of datasets and links.
+
+---
+
+## Analytical approach
+
+Planned analyses include:
+- descriptive summaries
+- rates and rate ratios where denominators are available
+- clear presentation of uncertainty
+- explicit discussion of data limitations
+
+Methods will prioritise interpretability and appropriateness over complexity.
+
+---
+
+## Limitations
+
+Key limitations are expected to include:
+- underdiagnosis of gendered conditions
+- prescribing as an imperfect proxy for care
+- incomplete capture of lived experience
+
+These will be discussed explicitly rather than treated as residual noise.
+
+---
+
+## What this suggests next
+
+This section will be completed after initial descriptive results are produced
+and will feed directly into `next-questions.md`.
