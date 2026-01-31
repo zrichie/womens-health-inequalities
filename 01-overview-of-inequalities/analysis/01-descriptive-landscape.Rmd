@@ -101,6 +101,22 @@ Planned analyses include:
 
 Methods will prioritise interpretability and appropriateness over complexity.
 
+### Exploratory questions (admissions)
+
+This analysis will explore the following high-level questions to orient the
+descriptive landscape:
+
+- How do all-cause hospital admission rates vary across age groups for women?
+- How does the balance between emergency and elective admissions change across
+  the life course?
+- Are there age ranges where emergency admissions dominate more strongly?
+- Do observed patterns appear stable enough to support stratification by
+  socioeconomic deprivation in subsequent analyses?
+
+These questions are intended to establish baseline patterns rather than to draw
+explanatory conclusions.
+
+
 ---
 
 ## Limitations
