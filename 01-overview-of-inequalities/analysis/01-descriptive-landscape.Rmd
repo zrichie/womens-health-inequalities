@@ -123,7 +123,7 @@ levels during pandemic-affected years. The emphasis is on identifying persistent
 patterns across age groups and over time, rather than attributing changes to
 specific causes.
 
-````{r setup-admissions, eval = FALSE}
+```{r setup-admissions, eval = FALSE}
 # This chunk defines the expected structure and scope of the hospital
 # admissions data used in this analysis.
 #
