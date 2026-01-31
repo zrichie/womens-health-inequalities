@@ -89,6 +89,12 @@ will be mapped to IMD quintiles where feasible and any deviations will be docume
 
 See `../data/sources.md` for full details of datasets and links.
 
+Hospital admissions analyses use publicly available, aggregated Hospital Episode
+Statistics (HES) data published by NHS England. Analyses focus on all-cause
+admissions, with emergency and elective admissions considered separately where
+available.
+
+
 ---
 
 ## Analytical approach
