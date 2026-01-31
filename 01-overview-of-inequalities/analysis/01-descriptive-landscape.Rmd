@@ -108,15 +108,24 @@ will be mapped to IMD quintiles where feasible and any deviations will be docume
 
 ---
 
-## Data sources
-
-See `../data/sources.md` for full details of datasets and links.
+## Data sources and period
 
 Hospital admissions analyses use publicly available, aggregated Hospital Episode
-Statistics (HES) data published by NHS England. Analyses focus on all-cause
-admissions, with emergency and elective admissions considered separately where
-available.
+Statistics (HES) data published by NHS England.
 
+The primary focus is on all-cause inpatient admissions, with emergency and elective
+admissions considered separately where available. Data are aggregated and
+non-identifiable, and are used to describe patterns of healthcare utilisation
+rather than individual patient pathways.
+
+Analyses focus on a recent five-year period to balance recency with stability of
+observed patterns. This period includes the COVID-19 pandemic, which substantially
+affected hospital activity and service delivery.
+
+Results are interpreted descriptively, with particular caution around absolute
+levels during pandemic-affected years. The emphasis is on identifying persistent
+patterns across age groups and over time, rather than attributing changes to
+specific causes.
 
 ---
 
