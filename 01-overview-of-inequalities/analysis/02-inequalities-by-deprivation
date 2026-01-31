@@ -142,6 +142,12 @@ Methods are chosen to maximise interpretability and minimise overstatement.
 - Are there life stages where deprivation-related inequalities appear to widen
   or narrow?
 
+Hospital admissions analyses use publicly available, aggregated Hospital Episode
+Statistics (HES) data published by NHS England. Analyses focus on all-cause
+admissions, with emergency and elective admissions considered separately where
+available.
+
+
 ---
 
 ## Interpretation and limitations
