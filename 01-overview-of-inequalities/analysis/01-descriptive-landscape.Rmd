@@ -2,7 +2,18 @@
 title: "Descriptive landscape of women’s health inequalities"
 output: html_document
 ---
+```{r libraries, message = FALSE, warning = FALSE}
+# Core tidyverse packages for data manipulation and visualisation
+library(tidyverse)
 
+# For working with dates and time periods (if needed later)
+library(lubridate)
+
+# For consistent plotting themes and scales
+library(scales)
+```
+
+---
 ## Purpose
 
 This analysis provides a high-level, descriptive overview of women’s health
