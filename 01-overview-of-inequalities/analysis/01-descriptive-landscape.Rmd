@@ -16,6 +16,18 @@ The aim is to:
 This analysis is descriptive and does not attempt causal inference.
 
 ---
+## Scoping and framing
+
+### Sex-specific focus
+
+This analysis is centred on women as the primary population of interest.
+Analyses focus on variation within women by age and socioeconomic deprivation.
+
+Limited comparisons with men may be presented for high-level contextual purposes
+in the descriptive landscape only. Men are not treated as a parallel analytic
+population, and sex comparisons are not a primary focus of this work.
+
+---
 
 ## Outcomes included
 
