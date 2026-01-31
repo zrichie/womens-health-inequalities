@@ -22,10 +22,28 @@ This analysis is descriptive and does not attempt causal inference.
 Planned outcome domains include:
 - mortality (where relevant)
 - hospital admissions
-- primary care prescribing (as a proxy for treatment)
+- primary care prescribing (as a proxy for treatment and management)
 - screening or preventive care indicators (where available)
 
-Final inclusion depends on data availability and quality.
+### Primary care prescribing domains
+
+Prescribing data are used as a proxy for observable primary care clinical action.
+To maintain interpretability and avoid over-fragmentation, prescribing analyses
+in this overview are limited to the following broad functional domains:
+
+- **Hormonal symptom management**  
+  (including menopausal hormone therapy and related treatments used to manage
+  hormonally mediated symptoms across the life course)
+
+- **Analgesics**  
+  (used as a proxy for pain and symptom management)
+
+- **Antidepressants (SSRIs)**  
+  (used as a proxy for mental health treatment and distress)
+
+These domains are intended to surface broad patterns rather than to evaluate
+appropriateness of prescribing or infer diagnosis.
+
 
 ---
 
