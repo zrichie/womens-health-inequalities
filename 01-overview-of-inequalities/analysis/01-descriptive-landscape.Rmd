@@ -72,6 +72,17 @@ in women’s health and to support comparability across outcomes:
 Where source datasets use different age bands, results will be mapped to the nearest
 life-course grouping where feasible and any deviations will be documented.
 
+### Socioeconomic deprivation
+
+Socioeconomic deprivation is measured using an area-based index (e.g. Index of
+Multiple Deprivation, IMD), grouped into quintiles from most deprived (Q1) to least
+deprived (Q5).
+
+Quintiles are used to balance interpretability, statistical stability, and
+comparability across datasets. Where source data use alternative groupings, results
+will be mapped to IMD quintiles where feasible and any deviations will be documented.
+
+
 ---
 
 ## Data sources
