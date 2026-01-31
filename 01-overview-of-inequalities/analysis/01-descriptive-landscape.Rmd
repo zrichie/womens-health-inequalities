@@ -127,6 +127,30 @@ levels during pandemic-affected years. The emphasis is on identifying persistent
 patterns across age groups and over time, rather than attributing changes to
 specific causes.
 
+```{r setup-admissions, eval = FALSE}
+# This chunk defines the expected structure and scope of the hospital
+# admissions data used in this analysis.
+#
+# At this stage, no data are loaded. The purpose of this chunk is to:
+# - document assumptions about the published HES tables
+# - clarify key variables required for analysis
+# - provide a stable entry point for subsequent data loading
+
+# Expected variables in admissions dataset:
+# - year: reporting year (financial or calendar, dataset-specific)
+# - sex: sex of patient (analysis will focus on females)
+# - age_group: age band as published or mapped to life-course groups
+# - imd_quintile: area-level deprivation quintile (Q1 most deprived – Q5 least deprived)
+# - admission_type: emergency or elective admission
+# - admissions: count of admissions (aggregate, non-identifiable)
+
+# Analytical intent:
+# - filter to women as the primary population of interest
+# - summarise admissions by age group and admission type
+# - use this structure to support descriptive comparisons over time
+#
+# Data loading and transformation will be added in subsequent steps.
+
 ---
 
 ## Analytical approach
