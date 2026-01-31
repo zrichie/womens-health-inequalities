@@ -133,6 +133,15 @@ Planned analyses include:
 
 Methods are chosen to maximise interpretability and minimise overstatement.
 
+### Exploratory questions: admissions by deprivation
+
+- How do all-cause admission rates differ across IMD quintiles for women?
+- Are deprivation gradients steeper for emergency admissions than for elective
+  admissions?
+- Do deprivation-related differences vary by age group?
+- Are there life stages where deprivation-related inequalities appear to widen
+  or narrow?
+
 ---
 
 ## Interpretation and limitations
