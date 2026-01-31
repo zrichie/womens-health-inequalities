@@ -1,0 +1,124 @@
+---
+title: "Women’s health inequalities by socioeconomic deprivation"
+output: html_document
+---
+
+## Purpose
+
+This analysis explores how the broad patterns identified in
+`01-descriptive-landscape.Rmd` vary by socioeconomic deprivation.
+
+The aim is to:
+- describe gradients in women’s health outcomes and service use by deprivation
+- assess whether inequalities are consistent across age groups and outcome domains
+- identify where deprivation-related disparities appear strongest or most uncertain
+
+This analysis remains **descriptive** and does not attempt causal inference.
+
+---
+
+## Relationship to the descriptive landscape
+
+This analysis builds directly on the high-level patterns identified in the
+descriptive landscape.
+
+Specifically, it asks:
+- whether patterns observed overall differ systematically by deprivation
+- whether apparent inequalities are consistent across life stages
+- whether some outcomes show steeper or flatter deprivation gradients than others
+
+Findings here are used to prioritise follow-on analyses rather than to draw
+explanatory conclusions.
+
+---
+
+## Deprivation measure
+
+Socioeconomic deprivation is measured using an area-based index
+(e.g. Index of Multiple Deprivation, IMD), grouped into ordered categories
+(e.g. quintiles or deciles).
+
+Deprivation is treated as:
+- a proxy for structural disadvantage
+- a population-level measure, not an individual attribute
+
+Limitations of this approach are discussed explicitly in
+`../data/limitations.md`.
+
+---
+
+## Outcomes included
+
+Planned outcome domains include (subject to data quality and availability):
+
+- mortality (where relevant)
+- hospital admissions (e.g. emergency vs elective)
+- primary care prescribing (as a proxy for treatment)
+- screening or preventive care indicators (where available)
+
+Not all outcomes included in the descriptive landscape will necessarily be
+included here.
+
+---
+
+## Stratification and comparisons
+
+Analyses will be stratified where possible by:
+- age group
+- deprivation category
+
+Comparisons will focus on:
+- gradients across deprivation categories
+- consistency of patterns across age groups
+- differences in magnitude between outcome domains
+
+Sex-specific analysis will remain the primary focus.
+
+---
+
+## Analytical approach
+
+Planned analyses include:
+- descriptive summaries by deprivation category
+- rates and rate ratios where appropriate denominators are available
+- graphical presentation of gradients and uncertainty
+- cautious comparison across outcomes rather than formal modelling
+
+Methods are chosen to maximise interpretability and minimise overstatement.
+
+---
+
+## Interpretation and limitations
+
+Observed deprivation gradients may reflect a combination of:
+- differences in underlying health need
+- differences in access to and experience of care
+- differences in recording and measurement
+
+As such:
+- gradients are interpreted as **signals of inequality**, not explanations
+- absence of a gradient does not imply absence of disadvantage
+- comparisons across outcomes are treated cautiously
+
+Key limitations are discussed in `../data/limitations.md`.
+
+---
+
+## What this suggests next
+
+This section will synthesise observed patterns and identify
+priority follow-on questions, including:
+
+- outcomes with particularly steep or uneven gradients
+- age groups where inequalities appear to widen or narrow
+- discrepancies between outcome types (e.g. admissions vs prescribing)
+
+These questions will be captured in `../next-questions.md` and used to guide
+subsequent, focused analyses.
+
+---
+
+## Status
+
+🟡 Planned / in progress  
+This analysis will be developed iteratively as data are explored.
