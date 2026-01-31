@@ -5,27 +5,25 @@ output: html_document
 
 ## Purpose
 
-This analysis provides a high-level descriptive overview of women’s health
-inequalities using publicly available UK data.
+This analysis provides a high-level, descriptive overview of women’s health
+inequalities using publicly available UK health data.
 
-The aim is to:
-- establish baseline patterns by sex, age, and deprivation
-- identify where disparities appear largest or most uncertain
-- generate focused follow-on questions for deeper analysis
+The aim is to establish the broad landscape of outcomes and healthcare
+utilisation affecting women, and to identify patterns that warrant deeper,
+focused analysis in subsequent work.
 
-This analysis is descriptive and does not attempt causal inference.
+This analysis is descriptive in nature and does not attempt causal inference.
 
 ---
-## Scoping and framing
+## Scope and framing
 
-### Sex-specific focus
+This analysis focuses on women as the primary population of interest.
+Variation within women by age and over time is explored to understand how
+healthcare utilisation and serious morbidity change across the life course.
 
-This analysis is centred on women as the primary population of interest.
-Analyses focus on variation within women by age and socioeconomic deprivation.
-
-Limited comparisons with men may be presented for high-level contextual purposes
-in the descriptive landscape only. Men are not treated as a parallel analytic
-population, and sex comparisons are not a primary focus of this work.
+Limited comparisons with men may be used for high-level contextual purposes
+only. Men are not treated as a parallel analytic population, and sex
+comparisons are not a primary focus of this work.
 
 ### Time period and pandemic context
 
@@ -37,22 +35,23 @@ Results are interpreted descriptively, with particular caution around absolute
 levels during pandemic-affected years. The focus is on identifying persistent
 patterns and gradients rather than attributing changes to specific causes.
 
-
 ---
 
 ## Outcomes included
 
 Planned outcome domains include:
-- mortality (where relevant)
-- hospital admissions
+- all-cause hospital admissions
 - primary care prescribing (as a proxy for treatment and management)
 - screening or preventive care indicators (where available)
 
+Mortality is used for contextual purposes only and is not a focal outcome in
+this analysis.
+
 ### Primary care prescribing domains
 
-Prescribing data are used as a proxy for observable primary care clinical action.
-To maintain interpretability and avoid over-fragmentation, prescribing analyses
-in this overview are limited to the following broad functional domains:
+Prescribing data are used as a proxy for observable primary care clinical
+action. To maintain interpretability and avoid over-fragmentation, prescribing
+analyses in this overview are limited to the following broad functional domains:
 
 - **Hormonal symptom management**  
   (including menopausal hormone therapy and related treatments used to manage
@@ -66,7 +65,6 @@ in this overview are limited to the following broad functional domains:
 
 These domains are intended to surface broad patterns rather than to evaluate
 appropriateness of prescribing or infer diagnosis.
-
 
 ---
 
@@ -105,29 +103,27 @@ Quintiles are used to balance interpretability, statistical stability, and
 comparability across datasets. Where source data use alternative groupings, results
 will be mapped to IMD quintiles where feasible and any deviations will be documented.
 
-
 ---
-
 ## Data sources and period
 
 Hospital admissions analyses use publicly available, aggregated Hospital Episode
 Statistics (HES) data published by NHS England.
 
-The primary focus is on all-cause inpatient admissions, with emergency and elective
-admissions considered separately where available. Data are aggregated and
-non-identifiable, and are used to describe patterns of healthcare utilisation
+The primary focus is on all-cause inpatient admissions, with emergency and
+elective admissions considered separately where available. Data are aggregated
+and non-identifiable, and are used to describe patterns of healthcare utilisation
 rather than individual patient pathways.
 
 Analyses focus on a recent five-year period to balance recency with stability of
-observed patterns. This period includes the COVID-19 pandemic, which substantially
-affected hospital activity and service delivery.
+observed patterns. This period includes the COVID-19 pandemic, which
+substantially affected hospital activity and service delivery.
 
 Results are interpreted descriptively, with particular caution around absolute
 levels during pandemic-affected years. The emphasis is on identifying persistent
 patterns across age groups and over time, rather than attributing changes to
 specific causes.
 
-```{r setup-admissions, eval = FALSE}
+````{r setup-admissions, eval = FALSE}
 # This chunk defines the expected structure and scope of the hospital
 # admissions data used in this analysis.
 #
@@ -179,21 +175,14 @@ descriptive landscape:
 These questions are intended to establish baseline patterns rather than to draw
 explanatory conclusions.
 
+---
+## Limitations and next steps
+
+Key data limitations and analytical considerations are documented in
+`data/limitations.md`.
+
+Patterns identified in this overview will be used to prioritise focused analyses,
+including inequality analyses by deprivation and condition-specific follow-on
+work.
 
 ---
-
-## Limitations
-
-Key limitations are expected to include:
-- underdiagnosis of gendered conditions
-- prescribing as an imperfect proxy for care
-- incomplete capture of lived experience
-
-These will be discussed explicitly rather than treated as residual noise.
-
----
-
-## What this suggests next
-
-This section will be completed after initial descriptive results are produced
-and will feed directly into `next-questions.md`.
